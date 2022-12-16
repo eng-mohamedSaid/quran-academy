@@ -388,7 +388,7 @@ button {
 .footer {
   background: var(--color-primary);
   justify-content: space-between;
-  padding: 3px 2rem;
+  padding: 2rem;
   align-items: center;
   gap: 1rem;
 }
