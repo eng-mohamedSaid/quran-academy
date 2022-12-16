@@ -4,6 +4,15 @@
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
 
+@media (max-width: 1600px) {
+  html {
+    font-size: 85%;
+  }
+}
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
 @media (max-width: 84em) {
   .home-img {
     width: 30rem;
@@ -47,5 +56,16 @@
   } */
   html {
     font-size: 60%;
+  }
+  .subject-container {
+    gap: 2rem;
+  }
+}
+/**************************/
+/* BELOW 400px  */
+/**************************/
+@media (max-width: 400px) {
+  .subject-container {
+    gap: 1rem;
   }
 }
