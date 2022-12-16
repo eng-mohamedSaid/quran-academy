@@ -60,12 +60,18 @@
   .subject-container {
     gap: 2rem;
   }
+  .why-hadith {
+    height: 180px !important;
+  }
 }
 /**************************/
 /* BELOW 400px  */
 /**************************/
-@media (max-width: 400px) {
+@media (max-width: 430px) {
   /* .subject-container {
     gap: 1rem;
   } */
+  .why-hadith {
+    height: 230px !important;
+  }
 }
