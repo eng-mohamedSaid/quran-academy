@@ -65,7 +65,7 @@
 /* BELOW 400px  */
 /**************************/
 @media (max-width: 400px) {
-  .subject-container {
+  /* .subject-container {
     gap: 1rem;
-  }
+  } */
 }

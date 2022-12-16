@@ -225,3 +225,37 @@ button {
 .subject-container p {
   font-size: 1.5rem;
 }
+/**************************/
+/*  benefits */
+/**************************/
+.benefits-container {
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.benefits-container-item {
+  font-size: 20px;
+  padding: 2rem;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  max-width: 400px;
+  border-top: solid 5px var(--color-primary);
+  box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.03);
+}
+.item-2 {
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-top: solid 5px var(--color-secondary);
+}
+.benefits-container-item ion-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.benefits-container-item h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.benefits-container-item p {
+  font-size: 1.5rem;
+}
