@@ -77,4 +77,7 @@
   .why-hadith {
     height: 230px !important;
   }
+  .footer {
+    flex-direction: column;
+  }
 }
