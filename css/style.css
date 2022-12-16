@@ -212,6 +212,7 @@ button {
 /**************************/
 .subject {
   background: var(--color-gray);
+  position: relative;
 }
 .subject-container {
   gap: 4rem;
@@ -225,6 +226,24 @@ button {
 .subject-container p {
   font-size: 1.5rem;
 }
+.subject-flower {
+  width: 15rem;
+  position: absolute;
+  top: -6.5rem;
+  right: -8rem;
+  animation: rotate-center 10s linear infinite both;
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
 /**************************/
 /*  benefits */
 /**************************/
@@ -259,3 +278,6 @@ button {
 .benefits-container-item p {
   font-size: 1.5rem;
 }
+/**************************/
+/*  benefits */
+/**************************/
