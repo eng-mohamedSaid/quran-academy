@@ -63,6 +63,9 @@
   .why-hadith {
     height: 180px !important;
   }
+  .logo {
+    width: 22rem !important;
+  }
 }
 /**************************/
 /* BELOW 400px  */

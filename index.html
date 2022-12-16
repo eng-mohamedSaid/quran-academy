@@ -22,18 +22,21 @@
       <a href="#">
         <img class="logo" alt="academy logo" src="img/logo-white.png" />
       </a>
-
-      <!-- <nav class="nav">
-        <ul class="nav-list flex">
-          <li><a class="nav-link" href="#how">المميزات</a></li>
-          <li><a class="nav-link" href="#meals">الأسعار</a></li>
-          <li><a class="nav-link" href="#test">Testimonials</a></li>
-        </ul>
-      </nav> -->
-
-      <a class="nav-btn flex" href="https://api.whatsapp.com/send?phone=14567">
+      <!-- <a class="nav-btn flex" href="https://api.whatsapp.com/send?phone=14567">
         <ion-icon name="logo-whatsapp" class="nav-btn-icon"></ion-icon>
-      </a>
+      </a> -->
+      <button class="nav-menu">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <div class="nav">
+        <ul class="nav-list flex">
+          <li><a class="nav-link" href="#subject">برامجنا </a></li>
+          <li><a class="nav-link" href="#benefits">مميزاتنا</a></li>
+          <li><a class="nav-link" href="#prices">أسعارنا</a></li>
+          <li><a class="nav-link" href="#footer">تواصل معنا</a></li>
+        </ul>
+      </div>
     </header>
 
     <!-- home page -->
@@ -76,7 +79,7 @@
         </div>
       </section>
       <!-- subjects -->
-      <section class="subject">
+      <section class="subject" id="subject">
         <h1>البرامج التعليمية</h1>
         <div class="subject-container flex">
           <div class="subject-container-item">
@@ -95,7 +98,7 @@
         <img class="subject-flower" src="img/flower.png" alt="flower" />
       </section>
       <!-- benefits -->
-      <section class="benefits">
+      <section class="benefits" id="benefits">
         <h1>مميزات الأكاديمية</h1>
         <div class="benefits-container flex">
           <div class="benefits-container-item">
@@ -147,7 +150,7 @@
         <img class="benefits-flowers" src="/img/repeat.png" alt="flowers" />
       </section>
       <!-- price -->
-      <section class="price">
+      <section class="price" id="prices">
         <h1>أسعار الأكاديمية</h1>
         <div class="price-items flex">
           <div class="price-item">
@@ -156,7 +159,7 @@
               في الشهر اثنا عشر حصة ، كل حصة لمدة نصف ساعة ، كما يوجد خصم لأي
               أحد لا يقدر علي الدفع
             </p>
-            <button class="home-text-btn">مائتي جنيــه</button>
+            <button class="home-text-btn">مائتــي جنيــه</button>
           </div>
           <div class="price-item">
             <h3>اشتراك مجاناً</h3>
@@ -170,13 +173,22 @@
       </section>
       <!--  -->
     </main>
-    <footer class="footer flex">
+    <footer class="footer flex" id="footer">
       <a href="#">
         <img class="logo" alt="academy logo" src="img/logo-white.png" />
       </a>
       <div class="footer-socialbtns">
-        <a href="#"> <ion-icon name="logo-facebook"></ion-icon></a>
-        <a href="#"> <ion-icon name="logo-whatsapp"></ion-icon></a>
+        <h5>تواصــــل معنــــا</h5>
+        <div class="flex">
+          <a class="flex" href="#"
+            ><p>فيسبوك</p>
+            <ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a class="flex" href="#">
+            <p>واتســاب</p>
+            <ion-icon name="logo-whatsapp"></ion-icon
+          ></a>
+        </div>
       </div>
     </footer>
     <!-- for ionicons -->

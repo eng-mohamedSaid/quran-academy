@@ -66,21 +66,16 @@ button {
 /**************************/
 .header {
   background: var(--color-primary);
-  padding: 2px 2rem;
+  padding: 4px 2rem;
   justify-content: space-between;
+  position: relative;
 }
 /* .header .logo { */
 .logo {
   width: 25rem;
 }
-/* .nav-list {
-  font-size: 1.5rem;
-  list-style: none;
-}
-.nav-list li a {
-  color: var(--color-white);
-} */
-.nav-btn {
+
+/* .nav-btn {
   color: var(--color-white);
   gap: 1rem;
   transition: all 0.3s;
@@ -91,6 +86,57 @@ button {
 
 .nav-btn-icon {
   font-size: 3rem;
+} */
+.nav-menu {
+  font-size: 3rem;
+  color: var(--color-white);
+}
+.nav {
+  position: absolute;
+  top: 80%;
+  right: 3rem;
+  background: var(--color-primary);
+  padding: 1rem;
+  box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.03);
+  display: none;
+  border: solid 2px var(--color-white);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  animation: scale-in-tr 0.5s linear both;
+}
+@keyframes scale-in-tr {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    opacity: 1;
+  }
+}
+
+.block {
+  display: block;
+}
+.nav-list {
+  list-style: none;
+  flex-direction: column;
+  gap: 1rem;
+}
+.nav-list a {
+  font-size: 2.3rem;
+  padding: 1.5rem;
+  color: var(--color-white);
+  transition: all 0.3s;
+}
+.nav-list a:hover {
+  color: var(--color-secondary);
 }
 /**************************/
 /*  home */
@@ -341,14 +387,29 @@ button {
   background: var(--color-primary);
   justify-content: space-between;
   padding: 3px 2rem;
+  align-items: center;
 }
 .footer-socialbtns {
   font-size: 3rem;
 }
+.footer-socialbtns div {
+  gap: 1rem;
+}
+.footer-socialbtns h5 {
+  color: var(--color-white);
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
 .footer-socialbtns a {
   color: var(--color-white);
+  gap: 1rem;
+  margin-bottom: 1rem;
   transition: all 0.3s;
 }
 .footer-socialbtns a:hover {
   color: var(--color-secondary);
+}
+
+.footer-socialbtns p {
+  font-size: 1.5rem;
 }

@@ -66,3 +66,10 @@ const ahadith = () => {
   }, 6000);
 };
 ahadith();
+
+//
+const menuBtn = document.querySelector(".nav-menu");
+const navBox = document.querySelector(".nav");
+menuBtn.addEventListener("click", () => {
+  navBox.classList.toggle("block");
+});
