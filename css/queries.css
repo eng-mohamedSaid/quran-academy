@@ -1,0 +1,51 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .home-img {
+    width: 30rem;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 80%;
+    /* font-size: 56.25%; */
+  }
+  .home-img {
+    width: 25rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 70%;
+  }
+  .home {
+    flex-direction: column;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  /* .home {
+    padding-top: 20rem;
+  } */
+  html {
+    font-size: 60%;
+  }
+}

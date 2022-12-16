@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;900&display=swap");
+:root {
+  --color-primary: #1b3556;
+  --color-secondary: #e9ca94;
+  --color-gray: #e7eaef;
+  --color-white: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 85%;
+  overflow-x: hidden;
+  /* but  scroll-behavior will not appear in safari so you should make it by javascript */
+  scroll-behavior: smooth;
+  text-align: center;
+}
+body {
+  font-family: "Alexandria", sans-serif;
+  /* line-height: 1; */
+  /* font-weight: 400; */
+  color: var(--color-primary);
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  /* overflow-x: hidden; */
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: inline-block;
+  text-decoration: none;
+  background: none;
+  /* font-size: 2rem; */
+  /* font-weight: 600; */
+  /* padding: 1.6rem 3.2rem; */
+  /* border-radius: 9px; */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+/**************************/
+/*  header */
+/**************************/
+.header {
+  background: var(--color-primary);
+  padding: 3px 0;
+  justify-content: space-around;
+}
+.header .logo {
+  width: 25rem;
+}
+/* .nav-list {
+  font-size: 1.5rem;
+  list-style: none;
+}
+.nav-list li a {
+  color: var(--color-white);
+} */
+.nav-btn {
+  color: var(--color-white);
+  gap: 1rem;
+  transition: all 0.3s;
+}
+.nav-btn:hover {
+  color: var(--color-secondary);
+}
+.nav-btn p {
+  font-size: 1.8rem;
+}
+.nav-btn-icon {
+  font-size: 3rem;
+}
+/**************************/
+/*  home */
+/**************************/
+.home {
+  background-image: url("/img/background-hero.jpg");
+  gap: 2rem;
+  /* height: 90vh; */
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+.home-img {
+  max-width: 40rem;
+}
+.home-text {
+  flex-direction: column;
+  gap: 3rem;
+}
+.home-text h1 {
+  font-size: 3rem;
+}
+.home-text p {
+  /* max-width: 600px; */
+  font-size: 2rem;
+}
+.home-text-btn {
+  background: var(--color-secondary);
+  color: var(--color-white);
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  position: relative;
+  transition: all 0.3s;
+}
+.home-text-btn::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  background: url(/img/half-flower.png) no-repeat;
+  display: block;
+  /* background: url(img/half-flower-0١.png); */
+  top: -42%;
+  left: -16%;
+  /* display: inline-block; */
+  transform: rotate(-45deg);
+}
+.home-text-btn:hover {
+  background: var(--color-primary);
+}
+.home-text-socialbtns {
+  font-size: 3rem;
+}
+.home-text-socialbtns a {
+  color: var(--color-primary);
+  transition: all 0.3s;
+}
+.home-text-socialbtns a:hover {
+  color: var(--color-secondary);
+}
