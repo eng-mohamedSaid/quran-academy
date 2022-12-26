@@ -10,7 +10,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* disable the highlight */
 }
 
 html {
@@ -33,14 +32,12 @@ body {
 a {
   text-decoration: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* disable the highlight */
 }
 
 /* to prevent blue background form moblile */
-a:focus,
-a:visited,
-a:active {
+a:focus {
   outline: none !important;
-  background: none;
 }
 
 section {
