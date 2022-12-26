@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 html {
-  /* font-size: 85%; */
+  /* font-size: 80%; */
   overflow-x: hidden;
   /* but  scroll-behavior will not appear in safari so you should make it by javascript */
   scroll-behavior: smooth;
@@ -28,6 +28,7 @@ body {
 }
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 section {
   padding: 4rem 2rem;
@@ -364,6 +365,7 @@ button {
   border-bottom-right-radius: 30px;
   max-width: 400px;
   overflow: hidden;
+  padding-bottom: 2.5rem;
 }
 .price-item h3 {
   font-size: 2rem;
@@ -376,12 +378,13 @@ button {
 .price-item p {
   font-size: 1.7rem;
   padding: 2rem;
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
   line-height: 1.5;
 }
-.price-item button {
+/* .price-item a {
   margin-bottom: 2rem;
-}
+} */
 /**************************/
 /*  footer */
 /**************************/

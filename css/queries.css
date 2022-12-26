@@ -1,12 +1,8 @@
 /* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
 
-/**************************/
-/* BELOW 1344px (Smaller desktops) */
-/**************************/
-
 @media (max-width: 1600px) {
   html {
-    font-size: 85%;
+    font-size: 70%;
   }
 }
 /**************************/
@@ -25,7 +21,7 @@
 
 @media (max-width: 1200px) {
   html {
-    font-size: 80%;
+    /* font-size: 80%; */
     /* font-size: 56.25%; */
   }
   .home-img {
@@ -39,7 +35,7 @@
 
 @media (max-width: 59em) {
   html {
-    font-size: 70%;
+    /* font-size: 70%; */
   }
   .home {
     flex-direction: column;
