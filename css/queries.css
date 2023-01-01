@@ -65,6 +65,13 @@
   /* .subject-container {
     gap: 1rem;
   } */
+  .subject-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .subject-container img {
+    margin-bottom: 1rem !important;
+  }
   .why-hadith {
     height: 230px !important;
   }

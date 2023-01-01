@@ -298,17 +298,18 @@ button {
 }
 
 .subject-container {
-  gap: 4rem;
+  /* gap: 4rem; */
+  justify-content: space-around;
 }
 
 .subject-container img {
-  width: 60px;
-  height: 60px;
-  margin-bottom: 1rem;
+  width: 70px;
+  height: 70px;
+  margin-bottom: 2rem;
 }
 
 .subject-container p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .subject-flower {
@@ -421,6 +422,7 @@ button {
   max-width: 400px;
   overflow: hidden;
   padding-bottom: 2.5rem;
+  align-self: stretch;
 }
 
 .price-item h3 {
@@ -444,6 +446,10 @@ button {
   margin-bottom: 2rem;
 }
  */
+.price-item-buttons {
+  flex-direction: column;
+  gap: 3rem;
+}
 /**************************/
 /*  footer */
 /**************************/
