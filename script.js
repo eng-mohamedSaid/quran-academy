@@ -39,7 +39,11 @@ menuBtn.addEventListener("click", () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  const lang = localStorage.getItem('lang') || 'ar';
+  const urlParams = new URLSearchParams(window.location.search);
+  const isEnglish = urlParams.get('english') === 'true';
+
+  const lang = isEnglish ? 'en' : (localStorage.getItem('lang') || 'ar');
+  localStorage.setItem('lang', lang); // Store it for future visits
   loadLanguage(lang);
 });
 
