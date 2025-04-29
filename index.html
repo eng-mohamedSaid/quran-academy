@@ -20,22 +20,38 @@
 
   <body>
     <header class="header flex">
+      <div>
+        <button class="nav-menu">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+        <div class="language-switcher">
+          <button id="lang-toggle" aria-label="Change Language">
+            <img
+              class="lang-toggle"
+              alt="language-switcher"
+              src="img/language-switcher.png"
+            />
+          </button>
+        </div>
+      </div>
       <a href="#">
         <img class="logo" alt="academy logo" src="img/logo-white.png" />
       </a>
-      <!-- <a class="nav-btn flex" href="https://api.whatsapp.com/send?phone=14567">
-        <ion-icon name="logo-whatsapp" class="nav-btn-icon"></ion-icon>
-      </a> -->
-      <button class="nav-menu">
-        <ion-icon name="menu-outline"></ion-icon>
-      </button>
 
       <div class="nav">
         <ul class="nav-list flex">
-          <li><a class="nav-link" href="#subject">برامجنا </a></li>
-          <li><a class="nav-link" href="#benefits">مميزاتنا</a></li>
-          <li><a class="nav-link" href="#prices">أسعارنا</a></li>
-          <li><a class="nav-link" href="#footer">تواصل معنا</a></li>
+          <li>
+            <a class="nav-link" href="#subject" data-i18n="nav.programs"></a>
+          </li>
+          <li>
+            <a class="nav-link" href="#benefits" data-i18n="nav.features"></a>
+          </li>
+          <li>
+            <a class="nav-link" href="#prices" data-i18n="nav.pricing"></a>
+          </li>
+          <li>
+            <a class="nav-link" href="#footer" data-i18n="nav.contact"></a>
+          </li>
         </ul>
       </div>
     </header>
@@ -45,51 +61,48 @@
       <section class="home flex">
         <img class="home-img" src="img/hero.png" alt="quran" />
         <div class="home-text flex">
-          <h1>أكاديمية ورتل القرآن ترتيلا</h1>
-          <p>
-            تحفيظ القران الكريم اونلاين وتعليم العلوم الشرعية والأداب الإسلامية (فقه -عقيدة - تفسير - نحو -سيرة )
-            للأطفالِ والكبار للرجال والنساء بطرق مبنيَّة على أُسسٍ علميَّةٍ وكَوادر تعليميَّةٍ من نُخبة من المعلمين
-            والمعلمات المؤهلين للتدريس والمُجازين في القرآن الكريم والحاصلين على درجات علمية من الازهر الشريف
-          </p>
-          <a href="#benefits" class="home-text-btn">مميزات الأكاديمية</a>
-          <!-- <div class="home-text-socialbtns">
-            <a href="#"> <ion-icon name="logo-facebook"></ion-icon></a>
-            <a href="#"> <ion-icon name="logo-whatsapp"></ion-icon></a>
-          </div> -->
+          <h1 data-i18n="site_title"></h1>
+          <p data-i18n="site_description"></p>
+          <a
+            href="#benefits"
+            class="home-text-btn"
+            data-i18n="site_benifits"
+          ></a>
         </div>
       </section>
 
       <!--why quran section  -->
       <section>
-        <!-- title -->
-        <h1>لماذا نحفظ القرآن</h1>
+        <h1 data-i18n="why_quran.title"></h1>
         <div class="why">
-          <p class="why-said">قال صلى الله عليه وسلم</p>
-          <p class="why-hadith">
-            يُقَالُ لِصَاحِبِ الْقُرْآنِ: اقْرَأْ وَارْتَقِ وَرَتِّلْ كَمَا كُنْتَ تُرَتِّلُ فِي الدُّنْيَا، فَإِنَّ
-            مَنْزِلَتَكَ عِنْدَ آخِرِ آيَةٍ تَقْرَؤُهَا"
-          </p>
-          <p class="why-teller">رواه أحمد والترمذي وأبو داود</p>
-          <ion-icon class="why-right-btn" name="chevron-forward-outline"></ion-icon>
+          <p class="why-said" data-i18n="why_quran.said"></p>
+      
+          <p class="why-hadith"></p>
+          <p class="why-teller"></p>
+      
+          <ion-icon
+            class="why-right-btn"
+            name="chevron-forward-outline"
+          ></ion-icon>
           <ion-icon class="why-left-btn" name="chevron-back-outline"></ion-icon>
         </div>
       </section>
 
       <!-- subjects -->
       <section class="subject" id="subject">
-        <h1>البرامج التعليمية</h1>
+        <h1 data-i18n="subjects.title"></h1>
         <div class="subject-container flex">
           <div class="subject-container-item">
-            <img src="/img/subject-icon-quran.png " />
-            <p>برنامج حفظ القرآن الكريم</p>
+            <img src="/img/subject-icon-quran.png" />
+            <p data-i18n="subjects.quran"></p>
           </div>
           <div class="subject-container-item">
             <img src="/img/subject-icon-abc.png" />
-            <p>برنامج تعليم التجويد</p>
+            <p data-i18n="subjects.tajweed"></p>
           </div>
           <div class="subject-container-item">
-            <img src="/img/subject-icon-books.png " />
-            <p>برنامج تعليم العلوم الشرعية</p>
+            <img src="/img/subject-icon-books.png" />
+            <p data-i18n="subjects.sharia"></p>
           </div>
         </div>
         <img class="subject-flower" src="img/flower.png" alt="flower" />
@@ -97,96 +110,98 @@
 
       <!-- benefits -->
       <section class="benefits" id="benefits">
-        <h1>مميزات الأكاديمية</h1>
+        <h1 data-i18n="benefits.title"></h1>
         <div class="benefits-container flex">
           <div class="benefits-container-item">
             <ion-icon name="alarm-outline"></ion-icon>
-            <h3>مواعيد متنوعة</h3>
-            <p>يمكنك الدراسة في أي وقت يناسبك ويناسب أبنائك علي الموبايل أو الكمبيوتر كما تحب</p>
+            <h3 data-i18n="benefits.items.0.title"></h3>
+            <p data-i18n="benefits.items.0.description"></p>
           </div>
-          <!--  -->
           <div class="benefits-container-item item-2">
             <ion-icon name="ribbon-outline"></ion-icon>
-            <h3>معلمون متميزون</h3>
-            <p>معلمون ومعلمات مصريون يتقنون اللغة العربية وخريجو الأزهر الشريف وحفظة للقرآن الكريم</p>
+            <h3 data-i18n="benefits.items.1.title"></h3>
+            <p data-i18n="benefits.items.1.description"></p>
           </div>
-          <!--  -->
           <div class="benefits-container-item">
             <ion-icon name="id-card-outline"></ion-icon>
-            <h3>دروس فردية</h3>
-            <p>تتكون الفصول من دروس فردية بين المعلم والطالب، هذا يسمح للطالب بالتركيز والتقدم في حفظه</p>
+            <h3 data-i18n="benefits.items.2.title"></h3>
+            <p data-i18n="benefits.items.2.description"></p>
           </div>
-          <!--  -->
           <div class="benefits-container-item item-2">
             <ion-icon name="calendar-outline"></ion-icon>
-            <h3>متابعة مستواك</h3>
-            <p>
-              في نهاية كل شهر تري متابعتك ومتابعة أبنائك ومقدار ما تم حفظه وهذا يساعدك في معرفة مقدار التطور والحفظ
-              شهرياً
-            </p>
+            <h3 data-i18n="benefits.items.3.title"></h3>
+            <p data-i18n="benefits.items.3.description"></p>
           </div>
-          <!--  -->
           <div class="benefits-container-item">
             <ion-icon name="book-outline"></ion-icon>
-            <h3>تعليم القراءة</h3>
-            <p>تعليم الكبار والصغار القراءة بطريقة سهلة وبسيطة من كتب ممنهجة بطريقة تناسب الجميع</p>
+            <h3 data-i18n="benefits.items.4.title"></h3>
+            <p data-i18n="benefits.items.4.description"></p>
           </div>
-          <!--  -->
         </div>
         <img class="benefits-flowers" src="/img/repeat.png" alt="flowers" />
       </section>
 
-      <!-- prices -->
+      <!-- prices for Egyptians -->
       <section class="price" id="prices">
-        <h1>أسعار الأكاديمية للمصريين</h1>
+        <h1 data-i18n="prices.egyptians.title"></h1>
         <div class="price-items flex">
           <div class="price-item">
-            <h3>برنامج الساعة</h3>
-            <p>
-              تقدم الأكاديمية تجربة فردية فريدة. ثماني حصص في الشهر، كل حصة لمدة ساعة. هذا البرنامج المكثف يقدمه
-              محترفون لضمان تحقيق أقصى استفادة
-            </p>
-            <a class="home-text-btn" href="https://wa.me/+201069823694" target="_blank">أربعمائــــة جنيه </a>
+            <h3 data-i18n="prices.egyptians.items.0.title"></h3>
+            <p data-i18n="prices.egyptians.items.0.description"></p>
+            <a
+              class="home-text-btn"
+              href="https://wa.me/+201069823694"
+              target="_blank"
+              data-i18n="prices.egyptians.items.0.price"
+            ></a>
           </div>
 
           <div class="price-item">
-            <h3>برنامج النصف ساعة</h3>
-            <p>
-              تقدم الأكاديمية تجربة فردية فريدة. ثماني حصص في الشهر، كل حصة لمدة نصف ساعة. هذا البرنامج المكثف يقدمه
-              محترفون لضمان تحقيق أقصى استفادة
-            </p>
-            <a class="home-text-btn" href="https://wa.me/+201069823694" target="_blank"> مائتـــــــا جنيــه </a>
+            <h3 data-i18n="prices.egyptians.items.1.title"></h3>
+            <p data-i18n="prices.egyptians.items.1.description"></p>
+            <a
+              class="home-text-btn"
+              href="https://wa.me/+201069823694"
+              target="_blank"
+              data-i18n="prices.egyptians.items.1.price"
+            ></a>
           </div>
         </div>
       </section>
 
-      <!-- prices -->
+      <!-- prices for non-Egyptians -->
       <section id="prices">
-        <h1>أسعار الأكاديمية لغير المصريين</h1>
+        <h1 data-i18n="prices.non_egyptians.title"></h1>
         <div class="price-items flex">
           <div class="price-item">
-            <h3>برنامج الساعة</h3>
-            <p>
-              تقدم الأكاديمية تجربة فردية فريدة. ثماني حصص في الشهر، كل حصة لمدة ساعة. هذا البرنامج المكثف يقدمه
-              محترفون لضمان تحقيق أقصى استفادة
-            </p>
-            <a class="home-text-btn" href="https://wa.me/+201069823694" target="_blank"> أربعــون دولاراً </a>
+            <h3 data-i18n="prices.non_egyptians.items.0.title"></h3>
+            <p data-i18n="prices.non_egyptians.items.0.description"></p>
+            <a
+              class="home-text-btn"
+              href="https://wa.me/+201069823694"
+              target="_blank"
+              data-i18n="prices.non_egyptians.items.0.price"
+            ></a>
           </div>
           <div class="price-item">
-            <h3>برنامج النصف ساعة</h3>
-            <p>
-              تقدم الأكاديمية تجربة فردية فريدة. ثماني حصص في الشهر، كل حصة لمدة نصف ساعة. هذا البرنامج المكثف يقدمه
-              محترفون لضمان تحقيق أقصى استفادة
-            </p>
-            <a class="home-text-btn" href="https://wa.me/+201069823694" target="_blank"> عشــرون دولاراً </a>
+            <h3 data-i18n="prices.non_egyptians.items.1.title"></h3>
+            <p data-i18n="prices.non_egyptians.items.1.description"></p>
+            <a
+              class="home-text-btn"
+              href="https://wa.me/+201069823694"
+              target="_blank"
+              data-i18n="prices.non_egyptians.items.1.price"
+            ></a>
           </div>
           <div class="price-item">
-            <h3>المجموعة المشتركة</h3>
-            <p>
-              تتيح الأكاديمية التواصل والتعلم مع مجموعة مختارة من الأفراد. المجموعة تتكون من 4 إلى 10 أفراد، مما يعزز
-              التفاعل ونقص الأخطاء
-            </p>
-            <a class="home-text-btn" href="https://wa.me/+201069823694" target="_blank"> سبعــة دولارات </a>
+            <h3 data-i18n="prices.non_egyptians.items.2.title"></h3>
+            <p data-i18n="prices.non_egyptians.items.2.description"></p>
+            <a
+              class="home-text-btn"
+              href="https://wa.me/+201069823694"
+              target="_blank"
+              data-i18n="prices.non_egyptians.items.2.price"
+            ></a>
           </div>
         </div>
       </section>
@@ -197,21 +212,31 @@
         <img class="logo" alt="academy logo" src="img/logo-white.png" />
       </a>
       <div class="footer-socialbtns">
-        <h5>تواصــــل معنــــا</h5>
+        <h5 data-i18n="footer.contact_title"></h5>
         <div class="flex">
-          <a class="flex" href="https://www.facebook.com/profile.php?id=100088831608513&mibextid=ZbWKwL" target="_blank"
-            ><p>فيسبوك</p>
-            <ion-icon name="logo-facebook"></ion-icon
-          ></a>
+          <a
+            class="flex"
+            href="https://www.facebook.com/profile.php?id=100088831608513&mibextid=ZbWKwL"
+            target="_blank"
+          >
+            <p data-i18n="footer.facebook"></p>
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
           <a class="flex" href="https://wa.me/+201069823694" target="_blank">
-            <p>واتســاب</p>
-            <ion-icon name="logo-whatsapp"></ion-icon
-          ></a>
+            <p data-i18n="footer.whatsapp"></p>
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
         </div>
       </div>
     </footer>
     <!-- for ionicons -->
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

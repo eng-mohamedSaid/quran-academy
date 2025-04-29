@@ -1,0 +1,104 @@
+{
+  "site_title": "Waratel Academy - Quran Recitation",
+  "site_description": "Online Quran memorization and teaching of Islamic sciences and etiquette (Fiqh - Aqeedah - Tafsir - Grammar - Seerah) for children and adults, men and women, using scientifically-based methods and a team of qualified teachers and instructors certified in the Quran and holding academic degrees from Al-Azhar University.",
+  "site_benifits": "Academy features",
+  "nav": {
+    "programs": "Our Programs",
+    "features": "Our Features",
+    "pricing": "Our Prices",
+    "contact": "Contact Us"
+  },
+  "why_quran": {
+    "title": "Why We Memorize the Qur'an?",
+    "said": "The Prophet ﷺ said:",
+    "hadith": "It will be said to the companion of the Qur’an: Recite and rise in status, and recite as you used to in the world, for your status will be at the last verse you recite.",
+    "teller": "Narrated by Ahmad, al-Tirmidhi, and Abu Dawood"
+  },
+  "subjects": {
+    "title": "Educational Programs",
+    "quran": "Qur'an Memorization Program",
+    "tajweed": "Tajweed Teaching Program",
+    "sharia": "Islamic Sciences Teaching Program"
+  },
+  "benefits": {
+    "title": "Academy Features",
+    "items": [
+      {
+        "title": "Flexible Schedules",
+        "description": "You can study at any time that suits you and your children, either on mobile or computer."
+      },
+      {
+        "title": "Distinguished Teachers",
+        "description": "Teachers from Egypt who are proficient in Arabic, graduates of Al-Azhar University, and Hafiz of the Qur'an."
+      },
+      {
+        "title": "Individual Lessons",
+        "description": "The classes consist of individual lessons between the teacher and the student, allowing the student to focus and progress in memorization."
+      },
+      {
+        "title": "Track Your Progress",
+        "description": "At the end of each month, you can track your and your children's progress and how much has been memorized, helping you measure development and progress."
+      },
+      {
+        "title": "Reading Instruction",
+        "description": "Teaching reading to both children and adults in an easy and simple way using structured books suitable for everyone."
+      }
+    ]
+  },
+  "prices": {
+    "egyptians": {
+      "title": "Academy Prices for Egyptians",
+      "items": [
+        {
+          "title": "Hour Program",
+          "description": "The academy offers a unique individual experience. Eight sessions per month, each lasting one hour. This intensive program is offered by professionals to ensure maximum benefit.",
+          "price": "400 EGP"
+        },
+        {
+          "title": "Half-Hour Program",
+          "description": "The academy offers a unique individual experience. Eight sessions per month, each lasting half an hour. This intensive program is offered by professionals to ensure maximum benefit.",
+          "price": "100 EGP"
+        }
+      ]
+    },
+    "non_egyptians": {
+      "title": "Academy Prices for Non-Egyptians",
+      "items": [
+        {
+          "title": "Hour Program",
+          "description": "The academy offers a unique individual experience. Eight sessions per month, each lasting one hour. This intensive program is offered by professionals to ensure maximum benefit.",
+          "price": "40 USD"
+        },
+        {
+          "title": "Half-Hour Program",
+          "description": "The academy offers a unique individual experience. Eight sessions per month, each lasting half an hour. This intensive program is offered by professionals to ensure maximum benefit.",
+          "price": "20 USD"
+        },
+        {
+          "title": "Group Program",
+          "description": "The academy offers the opportunity to communicate and learn with a selected group of individuals. The group consists of 4 to 10 individuals, enhancing interaction and reducing mistakes.",
+          "price": "7 USD"
+        }
+      ]
+    }
+  },
+  "footer": {
+    "contact_title": "Contact Us",
+    "facebook": "Facebook",
+    "whatsapp": "WhatsApp"
+  },
+  "hadiths": [
+    {
+      "hadith": "It will be said to the companion of the Qur’an: Recite and ascend, and recite as you used to recite in the world, for your rank will be at the last verse you recite.",
+      "teller": "Reported by Ahmad, Al-Tirmidhi, and Abu Dawood"
+    },
+    {
+      "hadith": "Indeed, Allah has His own people among mankind. It was said: Who are they, O Messenger of Allah? He said: They are the people of the Qur’an, the people of Allah and His special ones.",
+      "teller": "Authenticated by Al-Albani"
+    },
+    {
+      "hadith": "The example of the one who recites the Qur’an and memorizes it is that of one with the noble, righteous scribes.",
+      "teller": "Al-Bukhari"
+    }
+  ]
+}

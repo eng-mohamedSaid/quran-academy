@@ -51,12 +51,18 @@
     height: 180px !important;
   }
   .logo {
-    width: 22rem !important;
+    width: 19rem !important;
+    padding: 8px 0;
   }
   section {
     padding: 4rem 2rem;
     margin-bottom: 2rem;
   }
+  .why-teller {
+    display: none !important;
+  }
+
+
 }
 /**************************/
 /* BELOW 400px  */
