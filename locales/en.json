@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "title": "Wartel Quran Academy",
+    "description": "Wartel Quran Academy offers online Quran memorization and teaching of Islamic sciences and etiquette (Fiqh, Aqeedah, Tafsir, Arabic grammar, and Seerah) for children and adults, men and women."
+  },
   "site_title": "Waratel Academy - Quran Recitation",
   "site_description": "Online Quran memorization and teaching of Islamic sciences and etiquette (Fiqh - Aqeedah - Tafsir - Grammar - Seerah) for children and adults, men and women, using scientifically-based methods and a team of qualified teachers and instructors certified in the Quran and holding academic degrees from Al-Azhar University.",
   "site_benifits": "Academy features",
@@ -57,7 +61,7 @@
         {
           "title": "Half-Hour Program",
           "description": "The academy offers a unique individual experience. Eight sessions per month, each lasting half an hour. This intensive program is offered by professionals to ensure maximum benefit.",
-          "price": "100 EGP"
+          "price": "200 EGP"
         }
       ]
     },
