@@ -56,12 +56,12 @@
         {
           "title": "Hour Program",
           "description": "The academy offers a unique individual experience. Eight sessions per month, each lasting one hour. This intensive program is offered by professionals to ensure maximum benefit.",
-          "price": "500 EGP"
+          "price": "400 EGP"
         },
         {
           "title": "Half-Hour Program",
           "description": "The academy offers a unique individual experience. Eight sessions per month, each lasting half an hour. This intensive program is offered by professionals to ensure maximum benefit.",
-          "price": "250 EGP"
+          "price": "200 EGP"
         }
       ]
     },
